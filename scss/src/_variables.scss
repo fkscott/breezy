@@ -1,0 +1,46 @@
+/* colors */
+
+/* TODO: tertiary colors */
+$color-background-primary: #f9f9f9;
+$color-background-secondary: #f1f1f1;
+$color-background-tertiary: #D6D6D6;
+
+$color-foreground-primary: #100f0f;
+$color-foreground-secondary: #201E1E;
+$color-foreground-tertiary: #2A2828;
+
+$color-highlight: #fcf5c7;
+
+/* TODO: - hover colors */
+$color-accent-primary: #3B4B7A;
+$color-accent-secondary: #42548A;
+$color-accent-tertiary: #495D97;
+
+/* opinionated font sizes. i believe that headings should always be bigger than body text */
+$font-size-base: 18px;
+$font-viewport-scale-factor: 0.15vw;
+/* scale all font sizes by 15 percent * of the viewport width */
+$font-h1-size: calc(2.1 * #{$font-size-base} + #{$font-viewport-scale-factor});
+$font-h2-size: calc(1.7 * #{$font-size-base} + #{$font-viewport-scale-factor});
+$font-h3-size: calc(1.3 * #{$font-size-base} + #{$font-viewport-scale-factor});
+$font-h4-size: calc(1.2 * #{$font-size-base} + #{$font-viewport-scale-factor});
+$font-h5-size: calc(1.1 * #{$font-size-base} + #{$font-viewport-scale-factor});
+$font-h6-size: calc(1.05 * #{$font-size-base} + #{$font-viewport-scale-factor});
+
+
+/* layout */
+$layout-max-width: 38rem;
+$layout-padding: 1rem;
+$layout-body-line-height: 1.35;
+
+/* spacing */
+
+$spacing-base: 1rem;
+$spacing-xs: calc(0.125 * #{$spacing-base});
+$spacing-sm: calc(0.25 * #{$spacing-base});
+$spacing-md: calc(0.5 * #{$spacing-base});
+$spacing-lg: calc(#{$spacing-base});
+/* large stops following this factor because the padding on top of headings is twice this variable. */
+
+/* transitions and durations */
+$transition-duration: 0.1s;

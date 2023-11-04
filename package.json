@@ -1,0 +1,15 @@
+{
+  "name": "breezy",
+  "version": "1.0.0",
+  "description": "class-less css. don't worry about styling",
+  "scripts": {
+    "build": "sass scss:css --style compressed",
+    "watch": "sass --watch scss:css --style compressed"
+  },
+  "author": "Keagan Scott",
+  "license": "ISC",
+  "dependencies": {
+    "modern-normalize": "^2.0.0",
+    "sass": "^1.69.5"
+  }
+}

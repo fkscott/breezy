@@ -1,0 +1,11 @@
+html {
+    color: $color-foreground-primary;
+    background-color: $color-background-primary;
+}
+
+body {
+    margin: auto;
+    padding: $spacing-lg;
+    max-width: $layout-max-width;
+    line-height: $layout-body-line-height;
+}

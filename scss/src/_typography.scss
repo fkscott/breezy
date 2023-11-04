@@ -1,0 +1,83 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: calc(1.5 * $spacing-lg);
+    margin-bottom: calc(1 * $spacing-lg);
+}
+
+h1 {
+    font-size: $font-h1-size;
+}
+
+h2 {
+    font-size: $font-h2-size;
+}
+
+h3 {
+    font-size: $font-h3-size;
+}
+
+h4 {
+    font-size: $font-h4-size;
+}
+
+h5 {
+    font-size: $font-h5-size;
+}
+
+h6 {
+    font-size: $font-h6-size;
+}
+
+p,
+code,
+pre,
+ul,
+ol,
+dl,
+blockquote,
+figure,
+hr {
+    font-size: $font-size-base;
+    line-height: $layout-body-line-height;
+}
+
+/* list-specific spacing */
+
+
+ol,
+ul,
+li,
+dl:not(:last-child) {
+    margin-bottom: $spacing-sm;
+}
+
+mark {
+    background-color: $color-highlight;
+    padding: $spacing-xs;
+}
+
+blockquote {
+    padding: $spacing-lg;
+    margin: $spacing-lg 0;
+    border-left: 4px solid $color-background-tertiary;
+}
+
+a {
+    color: $color-accent-primary;
+
+    /* TODO: good contrasting link visted color */
+    &:hover {
+        color: $color-accent-tertiary;
+        transition: $transition-duration ease-in-out;
+    }
+}
+
+hr {
+    border: none;
+    border-top: 1px solid $color-background-tertiary;
+    margin: $spacing-lg 0;
+}
